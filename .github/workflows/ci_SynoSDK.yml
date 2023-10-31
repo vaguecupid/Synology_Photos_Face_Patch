@@ -6,7 +6,7 @@ on:
 jobs:
 
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     env:
       SYNO_MAIN_VERSION: 7.2.1
       SYNO_VERSION: 69057
